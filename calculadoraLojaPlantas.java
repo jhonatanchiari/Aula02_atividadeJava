@@ -17,6 +17,7 @@ public class calculadoraLojaPlantas {
         int opcao;
         
         do {
+            //exibe o meu de opções
             System.out.println("Escolha uma opção: ");
             System.out.println("1 - Calcular Preço Total");
             System.out.println("2 - Calcular Troco");
@@ -26,6 +27,7 @@ public class calculadoraLojaPlantas {
 
             switch(opcao) {
                 case 1:
+                //calculo do preco total
                     System.out.println("Digite a quantidade de plantas:");
                     int quantidade = scanner.nextInt();
                     System.out.println("Digite o valor unitário:");
@@ -36,6 +38,7 @@ public class calculadoraLojaPlantas {
                     break;
 
                 case 2:
+                //calculo do troco
                     System.out.println("Digite o valor recebido: ");
                     double valorRecebido = scanner.nextDouble();
                     System.out.println("Digite o valor total: ");
