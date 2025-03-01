@@ -11,7 +11,7 @@ public class calculadoraLojaPlantas {
         return valorRecebido - valorTotal;
     }
 
-    // Menu
+    //menu
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcao;
@@ -31,7 +31,7 @@ public class calculadoraLojaPlantas {
                     System.out.println("Digite o valor unitário:");
                     double precoUnitario = scanner.nextDouble();
                     double precoTotal = calcularPrecoTotal(quantidade , precoUnitario);
-                    // Usando %.2f para exibir o preço total com 2 casas decimais
+              
                     System.out.printf("O preço total é: %.2f\n", precoTotal);
                     break;
 
@@ -41,12 +41,12 @@ public class calculadoraLojaPlantas {
                     System.out.println("Digite o valor total: ");
                     double valorTotal = scanner.nextDouble();
                     double troco = calcularTroco(valorRecebido, valorTotal);
-                    // Usando %.2f para exibir o troco com 2 casas decimais
+              
                     System.out.printf("O valor de troco é: %.2f\n", troco);
                     break;
 
                 case 3:
-                    System.out.println("Saindo...");
+                    System.out.println("Encerrando sistema");
                     break;
 
                 default:
