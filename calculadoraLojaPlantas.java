@@ -49,10 +49,12 @@ public class calculadoraLojaPlantas {
                     break;
 
                 case 3:
+                //opção para o usuário sair do sistema
                     System.out.println("Encerrando sistema");
                     break;
 
                 default:
+                //exibe uma mensagem caso o usuário digite uma opção inválida
                     System.out.println("Opção Inválida");
                     break;
             }
